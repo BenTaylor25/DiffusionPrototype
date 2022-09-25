@@ -29,7 +29,7 @@ label s1_start:
     "You find the room with its door wide open."
     "Inside, you can see the teacher behind their desk and one student sitting one row from the front."
     char_teacher "Good Morning! We'll do proper introductions when everyone arrives, feel free to take a seat."
-    "As you scan around the room, the other student catches your eye and smiles."
+    "As you scan the room, the other student catches your eye and smiles."
     "You sit down in the seat next to them."
     char_koda "Hi, my name is Koda, nice to meet you."
     char_mc "Hi, I'm [mc_name]."
