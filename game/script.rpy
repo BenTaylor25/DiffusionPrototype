@@ -1,18 +1,15 @@
-﻿define mc = Character("[username]")
-define dad = Character("Dad")
-
+﻿define char_mc = Character("[mc_name]")
+define char_dad = Character("Dad")
+define char_koda = Character("Koda")
+define char_teacher = Character("Teacher")
 
 label start:
     python:
-        username = renpy.input("Enter name: ", length=32).strip()
+        mc_name = renpy.input("Enter name: ", length=32).strip()
 
-        if not username:
-            username = "Ben"
+        if not mc_name:
+            mc_name = "Ben"
 
-    scene bg room
-    show mc happy
-
-    dad "hi"
-    mc "hi"
+    call s1_start
 
     return
