@@ -9,7 +9,7 @@ label s1_start:
         "One more thing":
             char_mc "Wait, just need to grab one more thing."
     
-    "You hop into the passger seat next to your dad, anxious about the day ahead."
+    "You hop into the passenger seat next to your dad, anxious about the day ahead."
     char_dad "How you feeling?"
 
     menu:
@@ -85,7 +85,7 @@ label s1_start:
                 char_mc "I don't know yet."
                 char_koda "That's okay. I'm sure you'll figure it out!"
 
-    "While you were talking, the rest of the class had arrived."
+    "Before you know it, the rest of the class had arrived."
     "You and Koda shared a lot of classes that year and became good friends."
 
     return
