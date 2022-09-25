@@ -1,6 +1,5 @@
-
+# Section 1: Introductions
 label s1_start:
-    
     "It is your first day at a new school. You and your dad have just moved to a new area."    
     char_dad "Ready to go?"
 
@@ -52,11 +51,48 @@ label s1_start:
             char_koda "Well:"
             call koda_future
 
+    if same_career:
+        char_koda "What area of biology are you most interested in?"
+        menu:
+            "Physiology":
+                char_mc "Physiology is cool."
+                char_koda "Yeah, I love that too! Especially animal physiology."
+            "Zoology":
+                char_mc "I like Zoology."
+                char_koda "I love zoology! Especially animal physiology."
+            "Botany":
+                char_mc "Botany is my favourite."
+                char_koda "Plants are cool! I prefer animal physiology personally."
+            "I don't know":
+                char_mc "I don't really have a favourite. Not yet at least."
+                char_koda "That's okay! I recommend animal physiology."
+    else:
+        char_koda "Do you know what you want to do when you're older?"
+        menu:
+            "Something Technical":
+                char_mc "Something technical. I want to create something new."
+                char_koda "Cool! I can't wait to see your creation!"
+            "Something Scientific":
+                char_mc "Something scientific. I want to discover something new."
+                char_koda "Cool! There's plenty more to discover!"
+            "Something Creative":
+                char_mc "Something creative. I love art, and I want to create something new."
+                char_koda "Cool! I look forward to seeing your creation!"
+            "Something Physical":
+                char_mc "Something physical. I want a job that'll keep me in good shape."
+                char_koda "Cool! That's really smart!"
+            "I don't know":
+                char_mc "I don't know yet."
+                char_koda "That's okay. I'm sure you'll figure it out!"
+
+    "While you were talking, the rest of the class had arrived."
+    "You and Koda shared a lot of classes that year and became good friends."
 
     return
 
 label koda_future:
     char_koda "I want to find out how we're even alive, and like how do we even move?"
     char_koda "And I like animals."
+    char_koda "Plants are cool too."
 
     return
