@@ -43,7 +43,7 @@ label s1_start:
     char_teacher "Good Morning! We'll do proper introductions when everyone arrives, feel free to take a seat."
     hide char_teacher neutral
 
-    show char_koda neutral
+    show char_koda s1 neutral
     "As you scan the room, the other student catches your eye and smiles."
     "You sit down in the seat next to them."
     char_koda "Hi, my name is Koda, nice to meet you."
