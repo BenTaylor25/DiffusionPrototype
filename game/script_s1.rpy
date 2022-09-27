@@ -105,6 +105,9 @@ label s1_start:
     "Before you know it, the rest of the class had arrived."
     "You and Koda shared a lot of classes that year and became good friends."
 
+    scene blank
+    with fade
+
     return
 
 label koda_future:

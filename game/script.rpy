@@ -11,5 +11,6 @@ label start:
             mc_name = "Ben"
 
     call s1_start
+    call s2_start
 
     return
