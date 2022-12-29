@@ -1,0 +1,5 @@
+
+game/gui.rpy linguist-vendored=true
+game/screens.rpy linguist-vendored=true
+game/options.rpy linguist-vendored=true
+
